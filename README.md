@@ -10,9 +10,7 @@ can be solve as x divided by y.
 If we divide a number by zero or a string, then this will get an error/invalid response.
 To correct this, use the try-catch block to handle the exceptions. 
 
-Goal:
-
-Create a program with two numbers and display the results. Add the try-catch block to handle
+Goal: Create a program with two numbers and display the results. Add the try-catch block to handle
 any exceptions and a finally block to close the scanner. 
 
 How?
