@@ -23,20 +23,20 @@ There are three exceptions in this project.
 
   ArithmeticException: 
 
-    This exception occursed when we divided the number by zero.
-    Use catch block add the name of the type of exception and assign it to e.
-    Then enter a println message to the user within the catch block. 
+   This exception occursed when we divided the number by zero.
+   Use catch block add the name of the type of exception and assign it to e.
+   Then enter a println message to the user within the catch block. 
 
   InputMismatchException
 
-    This exeception occurred by dividing the number by a string value. 
-    To handle this exception, use the catch(InputMismatchException e).
-    Within the catch block, add a println message and ensure its imported. 
+   This exeception occurred by dividing the number by a string value. 
+   To handle this exception, use the catch(InputMismatchException e).
+   Within the catch block, add a println message and ensure its imported. 
 
   All Exception
 
-    This is will catch ALL exceptions. 
-    Use the catch(Exception e) and within the block add a println message.
+   This is will catch ALL exceptions. 
+   Use the catch(Exception e) and within the block add a println message.
 
 The last thing is to add a finally block right after the try-catch block. This
 block will ALWAYS execute whether there is an exception or not.
